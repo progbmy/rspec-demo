@@ -5,7 +5,7 @@ class Car
     @fuel = 0
   end
 
-  def add-fuel amount
+  def add_fuel amount
     @fuel += amount
   end
 #Как далеко мы сможем проехать дистанция
@@ -14,7 +14,7 @@ class Car
   end
 end
 
-car = Car.new
-car.add_fuel 10
+#car = Car.new
+#car.add_fuel 10
 
-puts "Rande is #{car.range}" # Мы сможем проехать столько то миль
+#puts "Rande is #{car.range}" # Мы сможем проехать столько то миль
